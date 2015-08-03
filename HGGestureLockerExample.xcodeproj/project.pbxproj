@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		794AA6DC1B4EB38300195524 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 794AA6DB1B4EB38300195524 /* main.m */; };
+		794AA6DF1B4EB38300195524 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 794AA6DE1B4EB38300195524 /* AppDelegate.m */; };
+		794AA6E21B4EB38300195524 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 794AA6E11B4EB38300195524 /* ViewController.m */; };
+		794AA6E51B4EB38300195524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 794AA6E31B4EB38300195524 /* Main.storyboard */; };
+		794AA6E71B4EB38300195524 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 794AA6E61B4EB38300195524 /* Images.xcassets */; };
+		794AA6EA1B4EB38300195524 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 794AA6E81B4EB38300195524 /* LaunchScreen.xib */; };
+		794AA6F61B4EB38400195524 /* HGGestureLockerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 794AA6F51B4EB38400195524 /* HGGestureLockerExampleTests.m */; };
+		798ECDA21B4EB5CF00BC26A6 /* HGGestureLockerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 798ECDA11B4EB5CF00BC26A6 /* HGGestureLockerView.m */; };
+		798ECDA51B4EB83400BC26A6 /* HGCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 798ECDA41B4EB83400BC26A6 /* HGCircleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		794AA6F01B4EB38300195524 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 794AA6CE1B4EB38300195524 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 794AA6D51B4EB38300195524;
+			remoteInfo = HGGestureLockerExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		794AA6D61B4EB38300195524 /* HGGestureLockerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGGestureLockerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		794AA6DA1B4EB38300195524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		794AA6DB1B4EB38300195524 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		794AA6DD1B4EB38300195524 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		794AA6DE1B4EB38300195524 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		794AA6E01B4EB38300195524 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		794AA6E11B4EB38300195524 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		794AA6E41B4EB38300195524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		794AA6E61B4EB38300195524 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		794AA6E91B4EB38300195524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		794AA6EF1B4EB38300195524 /* HGGestureLockerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HGGestureLockerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		794AA6F41B4EB38400195524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		794AA6F51B4EB38400195524 /* HGGestureLockerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGGestureLockerExampleTests.m; sourceTree = "<group>"; };
+		798ECDA01B4EB5CF00BC26A6 /* HGGestureLockerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGGestureLockerView.h; sourceTree = "<group>"; };
+		798ECDA11B4EB5CF00BC26A6 /* HGGestureLockerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGGestureLockerView.m; sourceTree = "<group>"; };
+		798ECDA31B4EB83400BC26A6 /* HGCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGCircleView.h; sourceTree = "<group>"; };
+		798ECDA41B4EB83400BC26A6 /* HGCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGCircleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		794AA6D31B4EB38300195524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794AA6EC1B4EB38300195524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		794AA6CD1B4EB38300195524 = {
+			isa = PBXGroup;
+			children = (
+				794AA6D81B4EB38300195524 /* HGGestureLockerExample */,
+				794AA6F21B4EB38300195524 /* HGGestureLockerExampleTests */,
+				794AA6D71B4EB38300195524 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		794AA6D71B4EB38300195524 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				794AA6D61B4EB38300195524 /* HGGestureLockerExample.app */,
+				794AA6EF1B4EB38300195524 /* HGGestureLockerExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		794AA6D81B4EB38300195524 /* HGGestureLockerExample */ = {
+			isa = PBXGroup;
+			children = (
+				798ECD9F1B4EB5CF00BC26A6 /* HGGestureLocker */,
+				794AA6DD1B4EB38300195524 /* AppDelegate.h */,
+				794AA6DE1B4EB38300195524 /* AppDelegate.m */,
+				794AA6E01B4EB38300195524 /* ViewController.h */,
+				794AA6E11B4EB38300195524 /* ViewController.m */,
+				794AA6E31B4EB38300195524 /* Main.storyboard */,
+				794AA6E61B4EB38300195524 /* Images.xcassets */,
+				794AA6E81B4EB38300195524 /* LaunchScreen.xib */,
+				794AA6D91B4EB38300195524 /* Supporting Files */,
+			);
+			path = HGGestureLockerExample;
+			sourceTree = "<group>";
+		};
+		794AA6D91B4EB38300195524 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				794AA6DA1B4EB38300195524 /* Info.plist */,
+				794AA6DB1B4EB38300195524 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		794AA6F21B4EB38300195524 /* HGGestureLockerExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				794AA6F51B4EB38400195524 /* HGGestureLockerExampleTests.m */,
+				794AA6F31B4EB38300195524 /* Supporting Files */,
+			);
+			path = HGGestureLockerExampleTests;
+			sourceTree = "<group>";
+		};
+		794AA6F31B4EB38300195524 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				794AA6F41B4EB38400195524 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		798ECD9F1B4EB5CF00BC26A6 /* HGGestureLocker */ = {
+			isa = PBXGroup;
+			children = (
+				798ECDA01B4EB5CF00BC26A6 /* HGGestureLockerView.h */,
+				798ECDA11B4EB5CF00BC26A6 /* HGGestureLockerView.m */,
+				798ECDA31B4EB83400BC26A6 /* HGCircleView.h */,
+				798ECDA41B4EB83400BC26A6 /* HGCircleView.m */,
+			);
+			path = HGGestureLocker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		794AA6D51B4EB38300195524 /* HGGestureLockerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 794AA6F91B4EB38400195524 /* Build configuration list for PBXNativeTarget "HGGestureLockerExample" */;
+			buildPhases = (
+				794AA6D21B4EB38300195524 /* Sources */,
+				794AA6D31B4EB38300195524 /* Frameworks */,
+				794AA6D41B4EB38300195524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HGGestureLockerExample;
+			productName = HGGestureLockerExample;
+			productReference = 794AA6D61B4EB38300195524 /* HGGestureLockerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		794AA6EE1B4EB38300195524 /* HGGestureLockerExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 794AA6FC1B4EB38400195524 /* Build configuration list for PBXNativeTarget "HGGestureLockerExampleTests" */;
+			buildPhases = (
+				794AA6EB1B4EB38300195524 /* Sources */,
+				794AA6EC1B4EB38300195524 /* Frameworks */,
+				794AA6ED1B4EB38300195524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				794AA6F11B4EB38300195524 /* PBXTargetDependency */,
+			);
+			name = HGGestureLockerExampleTests;
+			productName = HGGestureLockerExampleTests;
+			productReference = 794AA6EF1B4EB38300195524 /* HGGestureLockerExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		794AA6CE1B4EB38300195524 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = hoowang;
+				TargetAttributes = {
+					794AA6D51B4EB38300195524 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					794AA6EE1B4EB38300195524 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 794AA6D51B4EB38300195524;
+					};
+				};
+			};
+			buildConfigurationList = 794AA6D11B4EB38300195524 /* Build configuration list for PBXProject "HGGestureLockerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 794AA6CD1B4EB38300195524;
+			productRefGroup = 794AA6D71B4EB38300195524 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				794AA6D51B4EB38300195524 /* HGGestureLockerExample */,
+				794AA6EE1B4EB38300195524 /* HGGestureLockerExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		794AA6D41B4EB38300195524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794AA6E51B4EB38300195524 /* Main.storyboard in Resources */,
+				794AA6EA1B4EB38300195524 /* LaunchScreen.xib in Resources */,
+				794AA6E71B4EB38300195524 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794AA6ED1B4EB38300195524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		794AA6D21B4EB38300195524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798ECDA51B4EB83400BC26A6 /* HGCircleView.m in Sources */,
+				794AA6E21B4EB38300195524 /* ViewController.m in Sources */,
+				798ECDA21B4EB5CF00BC26A6 /* HGGestureLockerView.m in Sources */,
+				794AA6DF1B4EB38300195524 /* AppDelegate.m in Sources */,
+				794AA6DC1B4EB38300195524 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794AA6EB1B4EB38300195524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794AA6F61B4EB38400195524 /* HGGestureLockerExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		794AA6F11B4EB38300195524 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 794AA6D51B4EB38300195524 /* HGGestureLockerExample */;
+			targetProxy = 794AA6F01B4EB38300195524 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		794AA6E31B4EB38300195524 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				794AA6E41B4EB38300195524 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		794AA6E81B4EB38300195524 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				794AA6E91B4EB38300195524 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		794AA6F71B4EB38400195524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		794AA6F81B4EB38400195524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		794AA6FA1B4EB38400195524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HGGestureLockerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		794AA6FB1B4EB38400195524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HGGestureLockerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		794AA6FD1B4EB38400195524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HGGestureLockerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HGGestureLockerExample.app/HGGestureLockerExample";
+			};
+			name = Debug;
+		};
+		794AA6FE1B4EB38400195524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HGGestureLockerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HGGestureLockerExample.app/HGGestureLockerExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		794AA6D11B4EB38300195524 /* Build configuration list for PBXProject "HGGestureLockerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794AA6F71B4EB38400195524 /* Debug */,
+				794AA6F81B4EB38400195524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		794AA6F91B4EB38400195524 /* Build configuration list for PBXNativeTarget "HGGestureLockerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794AA6FA1B4EB38400195524 /* Debug */,
+				794AA6FB1B4EB38400195524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		794AA6FC1B4EB38400195524 /* Build configuration list for PBXNativeTarget "HGGestureLockerExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794AA6FD1B4EB38400195524 /* Debug */,
+				794AA6FE1B4EB38400195524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 794AA6CE1B4EB38300195524 /* Project object */;
+}
